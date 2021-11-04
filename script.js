@@ -80,8 +80,8 @@ addButton.addEventListener("click",function(){
         let taskDeleteButton = document.createElement("button");
 
         li.appendChild(document.createTextNode(newTask.value));
-        taskCompleteButton.innerHTML = "&#128504;";
-        taskEditButton.innerHTML = "&#128393;";
+        taskCompleteButton.innerHTML = "KILL";
+        taskEditButton.innerHTML = "EDIT";
         taskDeleteButton.innerHTML = "X";
 
         taskCompleteButton.addEventListener("click",function(evt){
