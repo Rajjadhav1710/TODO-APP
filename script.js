@@ -20,8 +20,8 @@ window.onload = function(){
         let taskDeleteButton = document.createElement("button");
 
         li.appendChild(document.createTextNode(todoListArray[i]));
-        taskCompleteButton.innerHTML = "🗸";
-        taskEditButton.innerHTML = "🖉";
+        taskCompleteButton.innerHTML = "✔";
+        taskEditButton.innerHTML = "✏";
         taskDeleteButton.innerHTML = "X";
 
         taskCompleteButton.addEventListener("click",function(evt){
