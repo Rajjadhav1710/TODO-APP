@@ -1,0 +1,118 @@
+body{
+
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Barlow', sans-serif;
+    background-color: #2B2B2B;
+}
+
+#heading {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #F0A500;
+}
+
+.input-form{
+    text-align: center;
+}
+
+.todo-list-container{
+  
+    margin: 50px 0;
+}
+
+.completed-tasks-list-container{
+
+    margin: 50px 0;
+}
+
+ul li{
+    margin: 10px 0;
+    font-size: 25px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.todo-list-container ul li::before{
+    content: "\29BF";
+    color: #F0A500;
+    /* font-weight: bold; */
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 5px;
+}
+
+.completed-tasks-list-container ul li::before{
+    content: "\1F5F8";
+    color: #F0A500;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+#new_task {
+   height: 20px;
+   width: 50%;
+   /* border-radius: 5px; */
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   border-bottom: 1px solid #F0A500;
+   background-color: #2B2B2B;
+   color: #F0A500;
+}
+
+#new_task:focus{
+   outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F0A500;
+}
+
+#add_button{
+    background-color: #2B2B2B;
+    color: #F0A500;
+    border: 2px solid #F0A500;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.todo-list-container h2{
+    color: #F0A500;
+}
+
+.completed-tasks-list-container h2{
+    color: #F0A500;
+}
+
+.todo-list button{
+    background-color: #2B2B2B;
+    color: #F0A500;
+    border: none;
+    /* border: 2px solid #F0A500; */
+    /* border-radius: 50%; */
+    font-size: 20px;
+    margin: 0 5px;
+
+}
+
+.todo-list button:nth-child(1){
+    margin-left: 20px;
+}
+
+.save-button-container{
+    text-align: right;
+}
+.save-button{
+    background-color: #2B2B2B;
+    color: #F0A500;
+
+    border: 2px solid #F0A500;
+    border-radius: 5px;
+    font-size: 20px;
+}
