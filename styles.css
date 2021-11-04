@@ -46,7 +46,7 @@ ul{
 }
 
 .completed-tasks-list-container ul li::before{
-    content: "\1F5F8";
+    content: "🗸";
     color: #F0A500;
     font-weight: bold;
     display: inline-block; 
